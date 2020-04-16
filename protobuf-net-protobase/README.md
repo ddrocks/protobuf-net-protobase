@@ -55,7 +55,7 @@ class GenericMessage<T> : IMessage
 	public T Value { get; set; }
 }
 ```
-The field number provided in 'ProtoBaseInclude' must be unique in the dependency tree.
+The field number provided in 'ProtoBase' must be unique in the dependency tree.
 
 ### Prepare your RuntimeTypeModel
 
